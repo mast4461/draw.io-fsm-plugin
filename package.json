@@ -1,0 +1,25 @@
+{
+  "name": "draw.io-fsm-plugin",
+  "version": "0.0.1",
+  "description": "A plugin for draw.io for working with state machines",
+  "main": "scripts/main.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-browserify": "^0.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mast4461/draw.io-fsm-plugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mast4461/draw.io-fsm-plugin/issues"
+  },
+  "homepage": "https://github.com/mast4461/draw.io-fsm-plugin#readme"
+}
