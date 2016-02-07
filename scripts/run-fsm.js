@@ -1,9 +1,9 @@
 var runFsm = function (graph, startNodeText) {
 	startNodeText = startNodeText || 'start';
 
-	var iStartNode = graph.nodes.map(function (node) {
-		return node.text;
-	}).indexOf(startNodeText);
+	var iStartNode = graph.nodes.map(function (node, i) {
+		return { i: i, text: node.text }
+	}).filter(obj => new RegExp(startNodeText).test(obj.text))[0].i;
 
 	if (iStartNode === -1) {
 		alert("No start node chosen. Choose one by selecting one or labeling one \"start\".");
