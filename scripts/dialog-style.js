@@ -16,9 +16,9 @@ var sheet = (function() {
 })();
 
 
-sheet.insertRule("dialog.fsm { text-align: center; }", 0);
-sheet.insertRule("dialog button { font-size: 20pt; cursor: pointer; margin: 2px; }", 0);
-sheet.insertRule("dialog button.close { position: absolute; top: 0; right: 0; }", 0);
+sheet.insertRule("dialog.fsm { text-align: center; bottom: 50px;}", 0);
+sheet.insertRule("dialog.fsm button { font-size: 20pt; cursor: pointer; margin: 2px; border-radius: 7px; }", 0);
+sheet.insertRule("dialog.fsm button.close { position: absolute; top: 0; right: 0; }", 0);
 
 
 
