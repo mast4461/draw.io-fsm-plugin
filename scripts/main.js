@@ -7,7 +7,7 @@ Draw.loadPlugin(function(ui) {
     window.ui = ui;
 
     // Adds resource for action
-    mxResources.parse('runFsmAction=Hello, World!');
+    mxResources.parse('runFsmAction=Run FSM plugin');
 
     // Adds action
     ui.actions.addAction('runFsmAction', function () {
@@ -33,11 +33,11 @@ Draw.loadPlugin(function(ui) {
     ui.menubar.container.lastChild.previousSibling.previousSibling);
 
     // Set icon for menubar item (cannot use built-in sprites)
-    elt.firstChild.style.backgroundImage = 'url(https://www.draw.io/images/logo-small.gif)';
-    elt.firstChild.style.backgroundPosition = '2px 3px';
+    // elt.firstChild.style.backgroundImage = 'url(https://www.draw.io/images/logo-small.gif)';
+    elt.firstChild.style.backgroundImage = 'url(' + require('../resources/toolbar-image.json').dataUrl + ')';
 
     // Displays status message
-    ui.editor.setStatus('Hello, World!');
+    ui.editor.setStatus('FSM plugin loaded.');
 });
 
 // if (require.main === module) {
