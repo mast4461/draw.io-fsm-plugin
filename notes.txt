@@ -1,0 +1,3 @@
+Serve on web using the node modules "localtunnel" and "http-server"
+http-server <path>
+lt --port 8080

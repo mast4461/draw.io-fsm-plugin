@@ -3,12 +3,13 @@
   "version": "0.0.1",
   "description": "A plugin for draw.io for working with state machines",
   "main": "scripts/main.js",
-  "dependencies": {
+  "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-rename": "^1.2.2",
-    "gulp-browserify": "^0.5.1"
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "vinyl-source-stream": "^1.1.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

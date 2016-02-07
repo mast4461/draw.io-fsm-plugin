@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Compile
-gulp scripts
+gulp build
 
 # Un-add any currently added files
 git reset
