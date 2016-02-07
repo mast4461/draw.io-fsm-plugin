@@ -34,7 +34,7 @@ Draw.loadPlugin(function(ui) {
 
     // Set icon for menubar item (cannot use built-in sprites)
     // elt.firstChild.style.backgroundImage = 'url(https://www.draw.io/images/logo-small.gif)';
-    elt.firstChild.style.backgroundImage = 'url(' + require('../resources/toolbar-image.json').dataUrl + ')';
+    elt.firstChild.style.backgroundImage = 'url(' + require('../resources/icon.json').dataUrl + ')';
 
     // Displays status message
     ui.editor.setStatus('FSM plugin loaded.');
