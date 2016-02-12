@@ -6,7 +6,7 @@ var source = require('vinyl-source-stream');
 
 var distName = 'fsm-plugin.js';
 
-
+// Must make better error handling for the build...
 gulp.task('build', function () {
     return browserify({
     		entries: './scripts/main.js',
